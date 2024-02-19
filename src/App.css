@@ -1,0 +1,54 @@
+.social-icons {
+  display: flex;
+}
+
+.social-icons a {
+  margin-right: 10px;
+}
+
+.menu ul {
+  display: flex;
+  list-style: none;
+}
+
+.menu li {
+  margin-right: 20px;
+}
+
+.logo img {
+  width: 100px;
+}
+
+.get-quote button {
+  background-color: #fff;
+  color: #333;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.get-quote button:hover {
+  background-color: #eee;
+}
+
+
+.header {
+  background-color: black;
+  height: 50px; /* Adjust the height of the header as needed */
+  position: relative;
+  z-index: 1; /* Ensure the header is above other content */
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: transparent; /* Set navigation bar background to transparent */
+  color: #fff;
+  position: absolute;
+  top: 0; /* Position the navigation bar at the top of the header */
+  width: 100%; /* Make the navigation bar span the entire width of the header */
+  z-index: 2; /* Ensure the navigation bar is above the header */
+}
